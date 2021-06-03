@@ -1,0 +1,5 @@
+docker-compose exec php php /var/www/html/artisan migrate
+
+librerias de docker
+
+https://hub.docker.com/_/phpmyadmin
