@@ -1,7 +1,7 @@
     5  apt -y  update
 
     6  apt -y  upgrade 
-    
+
     8  apt-get install     apt-transport-https     ca-certificates     curl     gnupg     lsb-release
 
     9  echo   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
@@ -18,3 +18,8 @@
    14  docker-compose version
 
    15  history > install_docker_linux.txt
+
+
+URL install docker in debian
+
+https://docs.docker.com/engine/install/debian/
